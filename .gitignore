@@ -1,0 +1,33 @@
+# dependencies and tooling
+node_modules/
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+
+# secrets and signing material - never commit these
+.env
+.env.*
+!.env.example
+*.jks
+*.keystore
+*.p12
+*.p8
+*.pem
+*.mobileprovision
+google-services.json
+*service-account*.json
+
+# build artefacts
+*.apk
+*.aab
+android/
+ios/
+
+# logs and OS files
+*.log
+.DS_Store
+
+# Local backup files
+*.backup
+package-lock-sdk57-backup.json
